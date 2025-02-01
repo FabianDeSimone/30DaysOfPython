@@ -98,3 +98,30 @@ print(7//3 == int(2.7))
 # Check if type of '10' is equal to type of 10
 
 print(type('10') == type(10))
+
+# Check if int('9.8') is equal to 10
+
+print( int(9.8) == 10)
+
+# Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
+hours = int(input("Enter hours: ")) 
+rate = int(input("Enter rate: "))   
+print("Your weekly earning is:", hours * rate)
+
+# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live up to hundred years
+
+years = int(input("Enter number of years you have lived: "))
+seconds = years * 365 * 24 * 60 * 60
+print("You have lived for", seconds, "seconds")
+
+# Write a Python script that displays the following table
+
+print("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125")
+
+# I'm going to assume that the previous exercise asks me to do the calculations and not just show the numbers.
+
+for i in range(1, 6):
+    print(i, i**0, i**1, i**2, i**3)
+
+
